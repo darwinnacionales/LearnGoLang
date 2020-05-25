@@ -11,7 +11,9 @@ func main() {
 	result1 := s1 == s2
 	result2 := s1 == s3
 	sampleVar := true
+	var explicitVar bool = false
 
 	fmt.Println(result1, result2, sampleVar)
 	fmt.Printf("%T\n", sampleVar)
+	fmt.Println(explicitVar)
 }
